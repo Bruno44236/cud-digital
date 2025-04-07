@@ -3,114 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Certificado Único de Discapacidad - Digital</title>
+  <title>Certificado Único de Discapacidad</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
+      background-color: white;
       margin: 0;
-      padding: 0;
+      padding: 20px;
     }
-
     .container {
       max-width: 600px;
-      margin: 40px auto;
-      background-color: white;
-      padding: 30px 20px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
-      border-radius: 8px;
-      text-align: center;
+      margin: auto;
+      border: 1px solid #ccc;
+      padding: 15px;
     }
-
     .logo {
-      max-width: 160px;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      color: #003366;
-      font-size: 20px;
-      margin-bottom: 20px;
-    }
-
-    .flex {
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
-
-    .photo {
-      width: 100px;
-      height: 120px;
-      border: 2px solid #ccc;
-      border-radius: 4px;
-      background-size: cover;
-      background-position: center;
+    .logo img {
+      height: 60px;
+      margin-right: 15px;
     }
-
-    .info {
-      text-align: left;
-      font-size: 16px;
-      line-height: 1.6;
+    h2 {
+      margin-top: 0;
       color: #333;
     }
-
-    .estado {
-      font-weight: bold;
-      color: green;
-      font-size: 18px;
-    }
-
-    .footer {
-      margin-top: 20px;
-      font-size: 12px;
-      color: #888;
-    }
-
-    .cert-btn {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #003366;
-      color: white;
-      border-radius: 4px;
-      text-decoration: none;
+    table {
+      width: 100%;
+      border-collapse: collapse;
       margin-top: 10px;
     }
-
-    .seal {
+    td {
+      border: 1px solid #ccc;
+      padding: 6px 10px;
+    }
+    .footer {
+      font-size: 11px;
+      color: #666;
       margin-top: 20px;
-      max-width: 100px;
-      opacity: 0.3;
+    }
+    a {
+      font-size: 11px;
+      color: #1a0dab;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="https://www.argentina.gob.ar/sites/default/files/andis-isologotipo-horizontal.png" alt="Logo ANDIS" class="logo" />
-
-    <h1>Certificado Único de Discapacidad - Digital</h1>
-
-    <div class="flex">
-      <div class="photo" style="background-image: url('https://i.imgur.com/H9V6Lkz.png');"></div>
-      <div class="info">
-        <p><strong>Nombre:</strong> Bruno Elias</p>
-        <p><strong>Apellido:</strong> Crisafulli</p>
-        <p><strong>DNI:</strong> 44236020</p>
-        <p><strong>CUIL:</strong> 20-44236020-1</p>
-        <p><strong>Fecha de nacimiento:</strong> 29/08/2002</p>
-        <p><strong>Estado del Certificado:</strong> <span class="estado">VIGENTE</span></p>
-      </div>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Logo_Andis.svg/512px-Logo_Andis.svg.png" alt="Logo ANDIS" />
+      <h2>Agencia Nacional de Discapacidad</h2>
     </div>
-
-    <a href="#" class="cert-btn">Ver Certificado</a>
-
-    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" alt="Sello Digital" class="seal"/>
-
+    <h3>Datos del certificado</h3>
+    <table>
+      <tr>
+        <td><strong>Certificado N.º:</strong></td>
+        <td>203344444423</td>
+      </tr>
+      <tr>
+        <td><strong>País:</strong></td>
+        <td>ARGENTINA</td>
+      </tr>
+      <tr>
+        <td><strong>Tipo de documento:</strong></td>
+        <td>DNI</td>
+      </tr>
+      <tr>
+        <td><strong>Número:</strong></td>
+        <td>44.236.020</td>
+      </tr>
+      <tr>
+        <td><strong>Fecha de vigencia desde:</strong></td>
+        <td>29/08/2022</td>
+      </tr>
+      <tr>
+        <td><strong>Fecha de vigencia hasta:</strong></td>
+        <td>29/08/2027</td>
+      </tr>
+      <tr>
+        <td><strong>Apellido:</strong></td>
+        <td>Crisafulli</td>
+      </tr>
+      <tr>
+        <td><strong>Nombre:</strong></td>
+        <td>Bruno Elías</td>
+      </tr>
+      <tr>
+        <td><strong>Diagnóstico:</strong></td>
+        <td>Trastorno del desarrollo no especificado</td>
+      </tr>
+      <tr>
+        <td><strong>Acompañante:</strong></td>
+        <td>Sí</td>
+      </tr>
+    </table>
     <div class="footer">
-      Este certificado es válido para su visualización digital y fue emitido por la Agencia Nacional de Discapacidad.
+      <p>Emitido por la Agencia Nacional de Discapacidad - República Argentina</p>
+      <a href="#">Carta de Derechos para Personas con Discapacidad</a>
     </div>
   </div>
 </body>
-</html>
+</html> 
